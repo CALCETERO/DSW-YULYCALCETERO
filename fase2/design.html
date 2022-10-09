@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 2 Diseño y construcción I</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Tema 2 HTML: Etiquetas Básicas de HTML, atributos y valores
+        </h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li>INICIO</li>
+            <li>TEMAS
+              <ul>
+                <li>Etiquetas Básicas de HTML</li>
+                <li>Atributos</li>
+                <li>valores</li>
+              </ul>
+            </li>
+            <li>RECURSOS DIGITALES
+                <ul>
+                    <li>recurso 1</li>
+                    <li>recurso 2</li>
+                </ul>
+            </li>
+            <li>APRENDIZAJE
+                <ul>
+                    <li>actividad 1</li>
+                    <li>actividad 2</li>
+                </ul>
+            </li>
+            <li>ACERCA DE</li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <p>
+            <h2>proposito del sitio</h2>
+        </p>
+        <p>
+            <h3>El proposito del sitio es reconocer los temas propuestos y aprender a usar las herramtas de HTML y CSS3</h3>
+        </p>
+        <article>
+            <h4>Etiquetas Básicas de HTML</h4>
+            <img src="img/etiquetas_basicas.png" alt="imagen alusiva al tema etiquetas basicas de html">
+            <p>
+                <strong>'body' para el contenido</strong>
+                 <br> Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para cualquier documento ya que indica donde empieza el contenido visible del documento. 
+            </p>
+            <p>
+                <strong>'head' para información sobre el documento</strong>
+                 <br> La parte superior del documento HTML, es donde podremos indicar los metadatos: título del documento, hojas de estilos, javaScript, CSS.
+            </p>
+            <p>
+                <strong>'div' división dentro del contenido</strong>
+            <br>Un elemento que es usado mayoritariamente para agrupar otros elementos y actuar como plantilla de otros controles. Esta etiqueta nos ayuda a estructurar el documento en secciones.
+            </p>
+            <p>
+                <strong>'a' para enlaces</strong>
+            <br>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href, donde pondremos el enlace al que queremos conectar. Otro atributo muy usado es target, el cual nos sirve para indicar si el enlace se abrirá en una nueva ventana o en la misma.
+            </p>
+            <p>
+                <strong>'strong' para poner el texto en negrita</strong>
+            <br>Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.
+        </p>
+            <p>
+                <strong>'br' para saltos de línea</strong>
+            <br>Con esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.
+            </p>
+            <p>
+                <strong>'H1'…'H6' para títulos dentro del contenido</strong>
+            <br>Hay diferentes niveles de títulos, del 1 al 6. Las etiquetas <H + número> nos permiten indicar la importancia del título y para estructurar el contenido, de esta forma ayudamos a los bots a entender la importancia del contenido.
+            </p>    
+            <p>
+                <strong>'img' para añadir imágenes al documento</strong>
+            <br>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.
+            </p>
+            <p>
+                <strong>'ol>'' para listas ordenadas, 'ul' para listas desordenadas, li'para elementos dentro de la lista </strong>
+                <br>Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para listas sin orden. Dentro de las listas, los elementos se identifican con la etiqueta LI.
+            </p>
+            <p>
+                <strong>'p' para parágrafos</strong>
+                <br>Etiqueta que nos sirve para agrupar texto dentro de un parágrafo. El propósito es poder hacer el contenido más fácil de leer y organizado.
+            </p>
+            <p>
+                <strong> 'span' para estilos de una parte del texto</strong>
+                <br>Con la etiqueta podemos <span style="color: red;"> personalizar</span>  el estilo de solamente una parte del texto. El elemento span no significa nada por sí solo, pero puede ser útil cuando se usa junto con los atributos globales, p. clase, idioma o dir. Representa a sus hijos..
+            </p>
+        </article>
+        <article>
+            <h4>Atributos</h4>
+            <img src="img/atributos_html.jfif" alt="imagen alusiva al tema atributos html">
+            <p>Los elementos en HTML tienen atributos; estos son valores adicionales que configuran los elementos o ajustan su comportamiento de diversas formas para cumplir los criterios de los usuarios.</p>
+            <table>
+                <tr>
+                    <td><strong>NOMBRE DEL ATRIBUTO</strong></td>
+                    <td><strong>ELEMENTOS</strong></td>
+                    <td><strong>DESCRIPCIÓN</strong></td>
+                </tr>
+                <tr>
+                    <td>accept</td>
+                    <td>form ; input</td>
+                    <td>Lista de tipos aceptados por el servidor, usualmente un tipo de archivo.</td>
+                </tr>
+                <tr>
+                    <td>accept-charset</td>
+                    <td>form</td>
+                    <td>Lista de juegos de caracteres soportados.</td>
+                </tr>
+                <tr>
+                    <td>accesskey</td>
+                    <td>atributos globales</td>
+                    <td>Define una tecla que activa o agrega un foco al elemento.</td>
+                </tr>
+                <tr>
+                    <td>action</td>
+                    <td>form</td>
+                    <td>La URL del programa que procesa la información enviada en el formulario.</td>
+                </tr>
+                <tr>
+                    <td>align</td>
+                    <td>applet ; caption ; col ; colgroup ; hr ; iframe ; img ; table ; tbody ; td ; tfoot ; th ; thead ; tr.</td>
+                    <td>Especifica el alineamiento horizontal del elemento.</td>
+                </tr>
+                <tr>
+                    <td>alt</td>
+                    <td>applet ; area ; img ; input</td>
+                    <td>Texto alternativo en caso de que la imagen no se pueda mostrar.</td>
+                </tr>
+                <tr>
+                    <td>async</td>
+                    <td>script</td>
+                    <td>Indica que el script debería ejecutarse asincrónicamente.</td>
+                </tr>
+                <tr>
+                    <td>autocomplete</td>
+                    <td>form ; input</td>
+                    <td>Indica si los controles en este formulario pueden tener por defecto sus valores completados automáticamente por el navegador.</td>
+                </tr>
+                <tr>
+                    <td>autofocus</td>
+                    <td>button ; input ; keygen ; select ; textarea</td>
+                    <td>El elemento debería recibir foco automáticamente después de haberse cargado la página.</td>
+                </tr>
+                <tr>
+                    <td>autoplay</td>
+                    <td>audio ; video</td>
+                    <td>El audio o video debería empezar lo antes posible.</td>
+                </tr>
+                <tr>
+                    <td>autosave</td>
+                    <td>input</td>
+                    <td>Previous values should persist dropdowns of selectable values across page loads.</td>
+                </tr>
+                <tr>
+                    <td>bgcolor</td>
+                    <td>body ; col ; colgroup ; marquee ; table ; tbody ; tfoot ; td ; th ; tr</td>
+                    <td>Color de fondo del elemento.</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>img ; objet ; table</td>
+                    <td>El ancho del borde.</td>
+                </tr>
+                <tr>
+                    <td>buffered</td>
+                    <td>audio ; video</td>
+                    <td>Contiene un rango de tiempo multimedia almacenado.</td>
+                </tr>
+                <tr>
+                    <td>challenge</td>
+                    <td>keygen</td>
+                    <td>Cadena de desafío que se envía junto con la clave pública.</td>
+                </tr>
+                <tr>
+                    <td>charset</td>
+                    <td>meta ; script</td>
+                    <td>Declara la codificación de caracteres de la página o del script.</td>
+                </tr>
+                <tr>
+                    <td>checked</td>
+                    <td>command ; input</td>
+                    <td>Indica que el elemento debería estar marcado al cargar la página.</td>
+                </tr>
+                <tr>
+                    <td>cite</td>
+                    <td>blockquote</td>
+                    <td>Contiene una URL que apunta a la fuente de la cita o cambio.</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td>atributo global</td>
+                    <td>Usualmente empleado con CSS para aplicar estilos a elementos con propiedades en comun.</td>
+                </tr>
+            </table>
+            <p>https://developer.mozilla.org/es/docs/Web/HTML/Attributes</p>
+        </article>
+        <article>
+            <h4>Valore de un atributo</h4>
+            <img src="img/valor_html.png" alt="imagen alusiva al tema valor html" width="300" height="200">
+            <p>Cuando se hace uso de un atributo HTML se debe especificar su valor, este puede representar una cantidad exacta, característica especifica o simplemente en que medida se ejecutará dicho atributo.
+            <br> El valor se expresa entre comillas después del signo de (=), de acuerdo al atributo, pueden haber una variedad de valores disponibles. Por ejemplo, en caso dealign puede tomar el valor de center (centro), right (derecha), left (izquierda), justify (justificado).</p>
+        </article>
+        <article>
+            <p><h2>Mockup sistema de información para educación virtual</h2></p>
+            <img src="img/mkp1.png" alt=""width="400" height="500">
+            <img src="img/mkp2.png" alt=""width="400" height="500">
+        </article>
+    </section>
+    <hr>
+    <footer>
+        <p>correo: yacalceteros@unadvirtual.edu.co</p>
+        <p>skype:bichayuly</p>
+        <p>06/10/2022</p>
+    </footer>
+</body>
+</html>
